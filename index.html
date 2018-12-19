@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/style.css">
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javaScript" src="assets/javaScript/app.js"></script>
+    <title>trivia</title>
+    
+
+</head>
+<body>
+  <div id="container">
+    <header>
+       <h1>TOTALLY TRIVIAL TRIVIA!</h1>
+    </header>
+
+    <section id="game">
+       <button id="start">start</button>
+    </section>
+   
+      <section id="question">
+       
+         <div id="gam"></div>
+      
+         <form name="quizForm" onsubmit="return finish()">
+
+            <h3>1. HTML is what type of language ?</h3>
+            <input type="radio" name="q1" class="input" value="a" id="q1a">a. Scripting Language
+            <input type="radio" name="q1" value="b" class="input" id="q1b">b. Programming Language
+            <input type="radio" name="q1" value="c" class="input" id="q1c">c. Markup Language
+            <input type="radio" name="q1" value="d" class="input" id="q1d">d. Network Protocol
+
+           
+            <h3>2. In which HTML element do we put a paragraphe?</h3>
+            <input type="radio" name="q2" value="a" id="q1a">a. &lt;script&gt;
+            <input type="radio" name="q2" value="b" id="q1b">b. &lt;div&gt;
+            <input type="radio" name="q2" value="c" id="q1c">c. &lt;p&gt;
+            <input type="radio" name="q2" value="d" id="q1d">d. &lt;input&gt;
+            
+            <h3>3. In which HTML element do we put in JavaScript code?</h3>
+            <input type="radio" name="q3" value="a" id="q1a">a. &lt;class&gt;
+            <input type="radio" name="q3" value="b" id="q1b">b. &lt;div&gt;
+            <input type="radio" name="q3" value="c" id="q1c">c. &lt;script&gt;
+            <input type="radio" name="q3" value="d" id="q1d">d. &lt;input&gt;
+           
+            <h3>4. The year in which HTML was first proposed _______.?</h3>
+            <input type="radio" name="q4" value="a" id="q1a">a. 1990
+            <input type="radio" name="q4" value="b" id="q1b">b. 1995
+            <input type="radio" name="q4" value="c" id="q1c">c. 2000
+            <input type="radio" name="q4" value="d" id="q1d">d. 1998
+            
+            <h3>5. Fundamental HTML Block is known as ___________.?</h3>
+            <input type="radio" name="q5" value="a" id="q1a">a. HTML Body
+            <input type="radio" name="q5" value="b" id="q1b">b. HTML Tag
+            <input type="radio" name="q5" value="c" id="q1c">c. HTML Attribute
+            <input type="radio" name="q5" value="d" id="q1d">d. HTML Element
+            
+            <h3>6. If we want to wrap a block of text around an image, which css property will we use?</h3>
+            <input type="radio" name="q6" value="a" id="q1a">a. wrap
+            <input type="radio" name="q6" value="b" id="q1b">b. push
+            <input type="radio" name="q6" value="c" id="q1c">c. float
+            <input type="radio" name="q6" value="d" id="q1d">d. align
+
+            <h3>7. If we want define style for an unique element, then which css selector will we use?</h3>
+            <input type="radio" name="q7" value="a" id="q1a">a. id
+            <input type="radio" name="q7" value="b" id="q1b">b. class
+            <input type="radio" name="q7" value="c" id="q1c">c. text
+            <input type="radio" name="q7" value="d" id="q1d">d. name
+
+            <h3>8. How do we declare a variable in javaScript?</h3>
+            <input type="radio" name="q8" value="a" id="q1a">a. variable
+            <input type="radio" name="q8" value="b" id="q1b">b. var 
+            <input type="radio" name="q8" value="c" id="q1c">c. function
+            <input type="radio" name="q8" value="d" id="q1d">d. object
+
+            <h3>9.  How do we declare a function in javaScript?</h3>
+            <input type="radio" name="q9" value="a" id="q1a">a. variable
+            <input type="radio" name="q9" value="b" id="q1b">b. var 
+            <input type="radio" name="q9" value="c" id="q1c">c. function
+            <input type="radio" name="q9" value="d" id="q1d">d. object
+
+            <h3>10. What is JQuery?</h3>
+            <input type="radio" name="q10" value="a" id="q1a">a. object 
+            <input type="radio" name="q10" value="b" id="q1b">b.javaScript framework
+            <input type="radio" name="q10" value="c" id="q1c">c. programming language
+            <input type="radio" name="q10" value="d" id="q1d">d. javaScript library
+
+            <br><br><br> 
+            
+            <button type="button" id="submit">submit</button>
+    
+    
+         </form>
+
+      </section>
+
+      <section id="end">
+         <h2>Done!!!!</h2>
+         <h4 id="score"></h4>
+         <button type="button" id="reset">reset</button>
+      </section>
+   </div>   
+
+</body>
+</html>
