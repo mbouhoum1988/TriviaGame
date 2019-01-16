@@ -1,5 +1,5 @@
 body{
-    background: url(../images/img.jpg)no-repeat center center fixed;
+    background: url(../images/img.jpg)center center fixed;
 }
 #container{
     width: 80%;
@@ -70,6 +70,6 @@ header h1{
 
 @media only screen and (max-width: 700px){
     body{
-        background: url(../images/img.jpg)no-repeat center center fixed;
+        background: url(../images/img.jpg) center center fixed;
     }
 }
